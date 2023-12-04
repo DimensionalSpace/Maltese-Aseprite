@@ -1,15 +1,23 @@
 {
-  "name": "aseprite_maltese_translation",
-  "displayName": "Aseprite Maltese Translation",
+  "name": "language-maltese",
+  "displayName": "Language - Maltese",
   "description": "Translation to Maltese By Dimensional Space",
   "version": "1.3.3",
-  "author": { "name": "Dimensional Space", "url": "https://github.com/DimensionalSpace" },
+  "author": {
+    "name": "Dimensional Space",
+    "url": "https://github.com/DimensionalSpace"
+  },
   "categories": [
     "Languages"
   ],
   "contributes": {
     "languages": [
-      { "id": "mt", "path": "./mt.ini" }
+      {
+        "id": "mt",
+        "path": "./mt.ini",
+        "englishName": "Maltese",
+        "displayName": "Malti"
+      }
     ]
   }
 }
